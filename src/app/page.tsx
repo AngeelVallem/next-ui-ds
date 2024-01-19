@@ -2,6 +2,7 @@
 
 import Button from "@/components/button/Button";
 import DarkModeToggle from "./Test";
+import Input from "@/components/input/Input";
 
 export default function Home() {
   return (
@@ -11,6 +12,8 @@ export default function Home() {
       </Button>
 
       <DarkModeToggle />
+
+      <Input />
     </main>
   );
 }
